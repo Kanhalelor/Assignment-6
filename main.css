@@ -1,0 +1,90 @@
+/* css */
+
+/* globals */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  display: flex;
+  flex-flow: column;
+
+  background: #e0e0e0;
+
+  width: 100vw;
+}
+/* global links section */
+a:visited {
+  color: 234;
+}
+a:active {
+  color: #587;
+}
+a {
+  text-decoration: none;
+}
+
+/*  */
+body .nav-bar {
+  height: 4.5rem;
+
+  display: flex;
+  justify-content: space-between;
+
+  background: #453;
+}
+
+body .nav-bar ul {
+  display: flex;
+
+  margin: 2px 10px;
+}
+
+body .products {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+
+  background: chocolate;
+}
+
+.products .product {
+  display: flex;
+  flex-flow: column;
+
+  background: cornflowerblue;
+
+  align-items: center;
+
+  width: 300px;
+  height: 400px;
+}
+
+.contacts-div {
+  width: 100vw;
+
+  color: darkviolet;
+  display: flex;
+
+  flex-flow: column;
+}
+
+footer {
+  margin-top: auto;
+
+  width: 100vw;
+  height: calc(100vh - 80vh);
+  display: grid;
+
+  place-items: center;
+}
